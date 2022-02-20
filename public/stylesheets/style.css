@@ -6,3 +6,39 @@ body {
 a {
   color: #00B7FF;
 }
+
+.movie-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 65px 0px 65px;
+}
+
+.moviedetailbox {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  
+}
+
+.moviedetail {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+p {
+  text-align: justify;
+  text-justify: auto;
+}
